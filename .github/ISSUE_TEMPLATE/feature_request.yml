@@ -1,0 +1,64 @@
+name: Feature Request
+description: Propose a new feature or enhancement for the SGDynamicTextAssets plugin.
+labels: ["feature"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief summary of the feature you are requesting.
+      placeholder: "Example: Add support for TOML serialization format"
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: |
+        What are you trying to achieve? Describe the problem or need this feature would address.
+      placeholder: |
+        Example: Our team uses TOML for all project configuration files and we would like
+        to keep our DTA files consistent with the rest of our tooling.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Case(s)
+      description: |
+        Describe one or more concrete use cases that justify this feature.
+      placeholder: |
+        Example:
+        - Game designers already familiar with TOML could author DTAs without learning a new format.
+        - CI pipelines that validate TOML config could also validate DTA files.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: |
+        If you have an idea for how this could be implemented, describe it here (optional).
+      placeholder: |
+        Example: A new FSGDynamicTextAssetTomlSerializer implementing ISGDynamicTextAssetSerializer,
+        registered alongside the existing JSON/XML/YAML serializers.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: |
+        Have you considered any alternative approaches or workarounds? (optional)
+      placeholder: |
+        Example: We considered converting TOML to JSON as a pre-build step, but that
+        adds complexity to the pipeline and loses the benefit of a single source of truth.
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Details
+      description: |
+        Any other context, mockups, or references that might be helpful (optional).

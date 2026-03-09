@@ -1,0 +1,60 @@
+name: Documentation Issue
+description: Report incorrect, missing, or unclear documentation.
+labels: ["documentation"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief summary of the documentation issue.
+      placeholder: "Example: The QuickStartGuide.md is missing the step for enabling the plugin"
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Documentation Page
+      description: |
+        Which documentation file or page is affected?
+      placeholder: "Example: Documentation/QuickStartGuide.md, README.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What kind of documentation issue is this?
+      options:
+        - Incorrect information
+        - Missing information
+        - Unclear or confusing
+        - Outdated
+        - Typo or formatting
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        Describe what is wrong, missing, or unclear. Include the specific section if applicable.
+      placeholder: |
+        Example: The "Setting Up Your First DTA" section in QuickStartGuide.md skips the step
+        where you need to enable the SGDynamicTextAssets plugin in the .uproject file.
+        Without this step, the module fails to load.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix
+      description: |
+        If you know what the correct information should be, describe it here (optional).
+      placeholder: |
+        Example: Add a step between steps 1 and 2 that says:
+        "Enable the SGDynamicTextAssets plugin in your .uproject file or
+        via Edit > Plugins in the Unreal Editor."

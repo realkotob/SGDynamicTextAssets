@@ -1,0 +1,109 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in the SGDynamicTextAssets plugin.
+labels: ["bug"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: A brief summary of the bug.
+      placeholder: "Example: YAML serializer crashes when loading a DTA with an empty data block"
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin Version
+      description: The version of SGDynamicTextAssets you are using.
+      placeholder: "Example: 1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: ue-version
+    attributes:
+      label: Unreal Engine Version
+      description: The version of Unreal Engine you are using.
+      placeholder: "Example: 5.6"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: Your operating system and version.
+      placeholder: "Example: Windows 11, macOS 15, Ubuntu 24.04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: Steps to Reproduce
+      description: |
+        Provide a clear, step-by-step description of how to reproduce the issue.
+      placeholder: |
+        1. Create a new DTA class inheriting from USGDynamicTextAsset
+        2. Create a .dta.yaml file with an empty "data" block
+        3. Open the DTA Browser and click on the asset
+        4. Observe the crash
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+      placeholder: "Example: The DTA should load with default values when the data block is empty."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened.
+      placeholder: "Example: The editor crashes with an access violation in FSGDynamicTextAssetYamlSerializer::Deserialize."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: build-config
+    attributes:
+      label: Build Configuration
+      description: Which build configuration(s) does this occur in? (optional)
+      options:
+        - label: Development
+        - label: DebugGame
+        - label: Shipping
+
+  - type: checkboxes
+    id: serialization-format
+    attributes:
+      label: Serialization Format
+      description: Which format(s) are involved? (optional)
+      options:
+        - label: JSON (.dta.json)
+        - label: XML (.dta.xml)
+        - label: YAML (.dta.yaml)
+        - label: Binary (.dta.bin)
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      description: |
+        Paste any relevant log files or output here (optional).
+        You can find logs in your project's `Saved/Logs/` directory.
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Video
+      description: |
+        Attach any screenshots or video that help illustrate the issue (optional but recommended).
+        Drag and drop files here or paste image links.
