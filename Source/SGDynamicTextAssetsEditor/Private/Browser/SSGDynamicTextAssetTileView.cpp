@@ -9,12 +9,10 @@
 #include "Management/SGDynamicTextAssetFileMetadata.h"
 #include "Management/SGDynamicTextAssetRegistry.h"
 #include "ReferenceViewer/SSGDynamicTextAssetReferenceViewer.h"
-#include "SGDynamicTextAssetsEditorModule.h"
-#include "Core/SGDynamicTextAsset.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Editor/SGDynamicTextAssetIdentityCustomization.h"
 #include "Editor/SSGDynamicTextAssetIcon.h"
 #include "Framework/Commands/GenericCommands.h"
-#include "Utilities/SGDynamicTextAssetSourceControl.h"
 #include "HAL/PlatformApplicationMisc.h"
 #include "Misc/MessageDialog.h"
 #include "ReferenceViewer/SGDynamicTextAssetReferenceSubsystem.h"
@@ -22,7 +20,6 @@
 #include "Widgets/Images/SImage.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/Layout/SBox.h"
-#include "Widgets/Layout/SScaleBox.h"
 #include "Widgets/Layout/SSpacer.h"
 
 FText FSGDynamicTextAssetListItem::GetDisplayName() const

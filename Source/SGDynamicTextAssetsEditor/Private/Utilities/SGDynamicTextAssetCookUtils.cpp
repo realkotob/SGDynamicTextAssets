@@ -2,7 +2,7 @@
 
 #include "Utilities/SGDynamicTextAssetCookUtils.h"
 
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "UObject/Package.h"
 #include "Management/SGDynamicTextAssetCookManifest.h"
 #include "Management/SGDynamicTextAssetFileManager.h"

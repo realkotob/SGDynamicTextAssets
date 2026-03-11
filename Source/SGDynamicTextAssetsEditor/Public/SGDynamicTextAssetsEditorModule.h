@@ -5,8 +5,6 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogSGDynamicTextAssetsEditor, Log, All);
-
 /**
  * Module interface for SGDynamicTextAssetsEditor.
  * Provides editor tooling for browsing, creating, editing, and managing dynamic text assets.
