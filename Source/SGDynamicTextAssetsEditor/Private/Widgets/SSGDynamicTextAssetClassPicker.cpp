@@ -3,7 +3,7 @@
 #include "Widgets/SSGDynamicTextAssetClassPicker.h"
 
 #include "Management/SGDynamicTextAssetRegistry.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Widgets/Input/SComboButton.h"
 #include "Widgets/Input/SSearchBox.h"
 #include "Widgets/Layout/SBox.h"

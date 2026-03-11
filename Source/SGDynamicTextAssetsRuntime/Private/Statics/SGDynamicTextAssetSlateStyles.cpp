@@ -3,7 +3,7 @@
 #include "Statics/SGDynamicTextAssetSlateStyles.h"
 
 #include "Interfaces/IPluginManager.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Styling/SlateStyleRegistry.h"
 #include "Styling/SlateStyle.h"
 

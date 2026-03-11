@@ -6,7 +6,7 @@
 #include "Framework/Application/SlateApplication.h"
 #include "Widgets/SWidget.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "WorkspaceMenuStructure.h"
 #include "WorkspaceMenuStructureModule.h"
 #include "Templates/SubclassOf.h"

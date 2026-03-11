@@ -5,7 +5,7 @@
 #include "Core/SGDynamicTextAssetId.h"
 #include "DetailWidgetRow.h"
 #include "HAL/PlatformApplicationMisc.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Widgets/Images/SImage.h"
 #include "Widgets/Input/SButton.h"
 #include "Widgets/Text/STextBlock.h"

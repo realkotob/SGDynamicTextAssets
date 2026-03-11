@@ -3,7 +3,7 @@
 #include "Editor/SSGDynamicTextAssetIdentityBlock.h"
 #include "Editor/SGDynamicTextAssetIdentityCustomization.h"
 #include "HAL/PlatformApplicationMisc.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Widgets/SBoxPanel.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/Layout/SBox.h"

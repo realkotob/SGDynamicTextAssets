@@ -2,13 +2,12 @@
 
 #include "Commandlets/SGDynamicTextAssetValidationCommandlet.h"
 
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Core/SGDynamicTextAsset.h"
 #include "Core/SGDynamicTextAssetRef.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Management/SGDynamicTextAssetFileMetadata.h"
 #include "Serialization/SGDynamicTextAssetSerializer.h"
-#include "AssetRegistry/AssetRegistryModule.h"
 #include "AssetRegistry/AssetData.h"
 #include "AssetRegistry/IAssetRegistry.h"
 #include "Engine/Blueprint.h"

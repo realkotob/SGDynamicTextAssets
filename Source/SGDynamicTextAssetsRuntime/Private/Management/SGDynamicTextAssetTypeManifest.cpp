@@ -8,7 +8,7 @@
 #include "Serialization/JsonReader.h"
 #include "Serialization/JsonSerializer.h"
 #include "Serialization/JsonWriter.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 
 const FString FSGDynamicTextAssetTypeManifest::KEY_SCHEMA = TEXT("schema");
 const FString FSGDynamicTextAssetTypeManifest::VALUE_SCHEMA = TEXT("dta_type_manifest");

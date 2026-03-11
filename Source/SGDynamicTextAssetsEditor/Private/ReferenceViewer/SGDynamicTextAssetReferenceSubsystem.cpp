@@ -2,15 +2,13 @@
 
 #include "ReferenceViewer/SGDynamicTextAssetReferenceSubsystem.h"
 
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Settings/SGDynamicTextAssetEditorSettings.h"
 #include "Core/ISGDynamicTextAssetProvider.h"
-#include "Core/SGDynamicTextAsset.h"
 #include "Core/SGDynamicTextAssetRef.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Management/SGDynamicTextAssetFileMetadata.h"
 #include "Serialization/SGDynamicTextAssetJsonSerializer.h"
-#include "AssetRegistry/AssetRegistryModule.h"
 #include "AssetRegistry/AssetData.h"
 #include "AssetRegistry/IAssetRegistry.h"
 #include "Components/ActorComponent.h"

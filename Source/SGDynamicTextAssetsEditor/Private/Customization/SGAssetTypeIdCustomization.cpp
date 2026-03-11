@@ -7,7 +7,7 @@
 #include "HAL/PlatformApplicationMisc.h"
 #include "Input/Reply.h"
 #include "Management/SGDynamicTextAssetRegistry.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Widgets/SSGDynamicTextAssetClassPicker.h"
 #include "Widgets/Images/SImage.h"
 #include "Widgets/Input/SButton.h"

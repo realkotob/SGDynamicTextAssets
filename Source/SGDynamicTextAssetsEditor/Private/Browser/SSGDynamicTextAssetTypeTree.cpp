@@ -2,7 +2,7 @@
 
 #include "Browser/SSGDynamicTextAssetTypeTree.h"
 
-#include "SGDynamicTextAssetLogs.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Core/SGDynamicTextAsset.h"
 #include "Management/SGDynamicTextAssetRegistry.h"
 #include "Widgets/Views/STableRow.h"

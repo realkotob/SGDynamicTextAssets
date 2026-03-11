@@ -2,7 +2,7 @@
 
 #include "Serialization/SGDynamicTextAssetBinarySerializer.h"
 
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Misc/FileHelper.h"
 #include "Misc/SecureHash.h"
