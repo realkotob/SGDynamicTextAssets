@@ -24,14 +24,13 @@
 #include "Utilities/SGDynamicTextAssetSourceControl.h"
 #include "ToolMenus.h"
 #include "Editor.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "UObject/ICookInfo.h"
 #include "Settings/ProjectPackagingSettings.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Framework/Notifications/NotificationManager.h"
 #include "Widgets/Notifications/SNotificationList.h"
 #include "HAL/FileManager.h"
-
-DEFINE_LOG_CATEGORY(LogSGDynamicTextAssetsEditor);
 
 #define LOCTEXT_NAMESPACE "FSGDynamicTextAssetsEditorModule"
 

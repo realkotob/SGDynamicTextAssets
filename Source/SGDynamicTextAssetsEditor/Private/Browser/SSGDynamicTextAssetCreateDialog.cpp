@@ -4,8 +4,7 @@
 
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Management/SGDynamicTextAssetFileMetadata.h"
-#include "Management/SGDynamicTextAssetRegistry.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Utilities/SGDynamicTextAssetSourceControl.h"
 #include "Widgets/SSGDynamicTextAssetClassPicker.h"
 #include "Widgets/Input/SButton.h"

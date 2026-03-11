@@ -13,7 +13,7 @@
 #include "Management/SGDynamicTextAssetFileMetadata.h"
 #include "Management/SGDynamicTextAssetRegistry.h"
 #include "ReferenceViewer/SSGDynamicTextAssetReferenceViewer.h"
-#include "SGDynamicTextAssetsEditorModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Utilities/SGDynamicTextAssetCookUtils.h"
 #include "Utilities/SGDynamicTextAssetSourceControl.h"
 #include "Browser/SGDynamicTextAssetBrowserCommands.h"
