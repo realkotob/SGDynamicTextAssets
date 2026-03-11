@@ -40,14 +40,14 @@ namespace SGDynamicTextAssetsUhtPlugin
 			// Find USGDynamicTextAssetProvider (the UInterface class) in the parsed type hierarchy.
 			// We detect by interface implementation, not class hierarchy, so that custom
 			// providers that do NOT inherit from USGDynamicTextAsset are also validated.
-			UhtClass? providerInterface = FindClassByName("USGDynamicTextAssetProvider");
+			UhtClass? providerInterface = FindClassByName("ISGDynamicTextAssetProvider");
 			if (providerInterface == null)
 			{
 				// Module doesn't contain USGDynamicTextAssetProvider — nothing to validate
 				Session.AddMessage(new UhtMessage
 				{
 					MessageType = UhtMessageType.Info,
-					Message = "SGDynamicTextAssetHardRefValidator: USGDynamicTextAssetProvider not found in parsed types — skipping validation"
+					Message = "SGDynamicTextAssetHardRefValidator: ISGDynamicTextAssetProvider not found in parsed types, skipping validation"
 				});
 				return;
 			}
