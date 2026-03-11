@@ -2,12 +2,11 @@
 
 #include "SGDynamicTextAssetsRuntimeModule.h"
 
-#include "Core/SGDynamicTextAsset.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
-#include "Management/SGDynamicTextAssetRegistry.h"
 #include "Serialization/SGDynamicTextAssetJsonSerializer.h"
 #include "Serialization/SGDynamicTextAssetXmlSerializer.h"
 #include "Serialization/SGDynamicTextAssetYamlSerializer.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Statics/SGDynamicTextAssetSlateStyles.h"
 
 #if WITH_EDITOR

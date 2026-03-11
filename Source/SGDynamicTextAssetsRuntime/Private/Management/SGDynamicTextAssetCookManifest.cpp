@@ -9,7 +9,7 @@
 #include "Misc/SecureHash.h"
 #include "Serialization/MemoryReader.h"
 #include "Serialization/MemoryWriter.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 
 const TCHAR* FSGDynamicTextAssetCookManifest::MANIFEST_FILENAME = TEXT("dta_manifest.bin");
 

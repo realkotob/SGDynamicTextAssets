@@ -2,7 +2,7 @@
 
 #include "Statics/SGDynamicTextAssetStatics.h"
 
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Core/SGDynamicTextAsset.h"
 #include "Core/SGDynamicTextAssetValidationResult.h"
 #include "Engine/Engine.h"

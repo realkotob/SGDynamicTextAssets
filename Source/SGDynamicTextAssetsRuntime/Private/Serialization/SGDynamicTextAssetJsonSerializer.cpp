@@ -2,7 +2,7 @@
 
 #include "Serialization/SGDynamicTextAssetJsonSerializer.h"
 
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Core/SGDynamicTextAsset.h"
 #include "Core/SGDynamicTextAssetTypeId.h"
 #include "Core/SGDynamicTextAssetVersion.h"

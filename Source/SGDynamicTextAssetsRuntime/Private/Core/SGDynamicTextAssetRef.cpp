@@ -6,7 +6,7 @@
 #include "Engine/World.h"
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Management/SGDynamicTextAssetFileMetadata.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Subsystem/SGDynamicTextAssetSubsystem.h"
 
 #if WITH_EDITOR

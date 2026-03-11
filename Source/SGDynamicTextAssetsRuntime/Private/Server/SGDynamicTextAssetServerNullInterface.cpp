@@ -2,7 +2,7 @@
 
 #include "Server/SGDynamicTextAssetServerNullInterface.h"
 
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 
 void USGDynamicTextAssetServerNullInterface::FetchAllDynamicTextAssets(
     const TArray<FSGServerDynamicTextAssetRequest>& LocalObjects,

@@ -2,7 +2,7 @@
 
 #include "Management/SGDynamicTextAssetFileManager.h"
 
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "Core/SGDynamicTextAsset.h"
 #include "HAL/FileManager.h"
 #include "HAL/PlatformFileManager.h"

@@ -3,7 +3,7 @@
 #include "Settings/SGDynamicTextAssetSettings.h"
 
 #include "Engine/AssetManager.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 
 FName USGDynamicTextAssetSettingsAsset::GetCustomCompressionName() const
 {

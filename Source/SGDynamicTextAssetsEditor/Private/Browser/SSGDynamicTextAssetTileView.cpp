@@ -9,7 +9,7 @@
 #include "Management/SGDynamicTextAssetFileMetadata.h"
 #include "Management/SGDynamicTextAssetRegistry.h"
 #include "ReferenceViewer/SSGDynamicTextAssetReferenceViewer.h"
-#include "SGDynamicTextAssetLogs.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Editor/SGDynamicTextAssetIdentityCustomization.h"
 #include "Editor/SSGDynamicTextAssetIcon.h"
 #include "Framework/Commands/GenericCommands.h"

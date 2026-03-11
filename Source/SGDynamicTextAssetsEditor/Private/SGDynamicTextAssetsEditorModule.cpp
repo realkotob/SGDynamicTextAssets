@@ -24,7 +24,7 @@
 #include "Utilities/SGDynamicTextAssetSourceControl.h"
 #include "ToolMenus.h"
 #include "Editor.h"
-#include "SGDynamicTextAssetLogs.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "UObject/ICookInfo.h"
 #include "Settings/ProjectPackagingSettings.h"
 #include "Management/SGDynamicTextAssetFileManager.h"

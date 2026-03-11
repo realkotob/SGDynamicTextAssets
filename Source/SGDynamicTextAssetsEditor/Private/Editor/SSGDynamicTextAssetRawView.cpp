@@ -1,8 +1,7 @@
 // Copyright Start Games, Inc. All Rights Reserved.
 
 #include "Editor/SSGDynamicTextAssetRawView.h"
-#include "SGDynamicTextAssetsEditorModule.h"
-#include "Editor/SGDynamicTextAssetIdentityCustomization.h"
+#include "SGDynamicTextAssetEditorLogs.h"
 #include "Editor/SSGDynamicTextAssetIdentityBlock.h"
 #include "Widgets/Text/STextBlock.h"
 #include "Widgets/Input/SMultiLineEditableTextBox.h"

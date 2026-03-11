@@ -14,7 +14,7 @@
 #include "Management/SGDynamicTextAssetFileManager.h"
 #include "Management/SGDynamicTextAssetTypeManifest.h"
 #include "Misc/Paths.h"
-#include "SGDynamicTextAssetsRuntimeModule.h"
+#include "SGDynamicTextAssetLogs.h"
 #include "UObject/UObjectIterator.h"
 
 USGDynamicTextAssetRegistry* USGDynamicTextAssetRegistry::Get()
